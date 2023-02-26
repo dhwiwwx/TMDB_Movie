@@ -15,7 +15,7 @@ body{
 }
 
 .movie-container{
-  width: 250px;
+  width: 230px;
   margin: 16px;
   background-color: #373b69;
   color: white;
@@ -23,4 +23,20 @@ body{
 
 .movie-container img{
   max-width: 100%;
+  height: 350px;
+}
+
+.movie-info{
+  display: flex;
+  padding: 20px;
+  justify-content: space-between;
+
+}
+
+.movie-info h4{
+  margin: 0;
+  font-size: 15px;
+}
+.movie-info span{
+  margin-left: 3px;
 }
